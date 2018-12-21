@@ -35,7 +35,12 @@ class NN:
         np.add(output, self.bias_o)
         self.map(output, self.sigmoid)
 
-        return output.tolist()
+        out = []
+        for i in range(len(output)):
+            for j in range(len(output[i])):
+                out.append(output[i][j])
+
+        return out
 
     def backward(self, output, inputs, targets):
         hidden = np.dot(self.weights_ih, inputs)
