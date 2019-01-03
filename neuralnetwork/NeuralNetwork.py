@@ -12,7 +12,7 @@ class NeuralNetwork(object):
         self.nHidden = nHidden
         self.nOutputs = nOutputs
 
-        # self.nHidden = int(2 / (2 * (self.nInputs + self.nOutputs)))
+        #self.nHidden = int(15 / (2 * (self.nInputs + self.nOutputs)))
 
         # weights
         self.weights_ih = Matrix(self.nHidden, self.nInputs)
@@ -59,6 +59,8 @@ class NeuralNetwork(object):
 
         # Calculate output errors
         # e = targets - outputs
+        targets.show()
+        outputs.show()
         output_errors = Matrix.subtract(targets, outputs)
 
         # Calculate hidden layer errors

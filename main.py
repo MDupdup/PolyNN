@@ -1,50 +1,70 @@
 from neuralnetwork.NeuralNetwork import NeuralNetwork
-from neuralnetwork.NeuralNetwork_numpy import NN
+from classification.Classification import Classification
 from random import choice
 
 
-def normalize_ascii_value(n):
-    return (n - 32) / 90
-
-
-def format_string_to_array(string):
-    out = []
-    for char in list(string):
-        out.append(normalize_ascii_value(ord(char)))
-
-    while len(out) < 8:
-        out.append(normalize_ascii_value(32))
-
-    return out
-
-
-hello = "hello!"
-hello_array = []
-
-bye = "Goodbye"
-bye_array = []
+# def normalize_ascii_value(n):
+#     return (n - 32) / 90
+#
+#
+# def format_string_to_array(string):
+#     out = []
+#     for char in list(string):
+#         out.append(normalize_ascii_value(ord(char)))
+#
+#     while len(out) < 8:
+#         out.append(normalize_ascii_value(32))
+#
+#     return out
+#
+#
+# hello = "hello!"
+# hello_array = []
+#
+# bye = "Goodbye"
+# bye_array = []
+#
+# data = [
+#     {
+#         "inputs": format_string_to_array(hello),
+#         "targets": [1]
+#     },
+#     {
+#         "inputs": format_string_to_array(bye),
+#         "targets": [0]
+#     }
+# ]
+#
+# print("is this a hello?", brain.feed_forward(format_string_to_array("hello!")))
+# print("is this a goodbye?", brain.feed_forward(format_string_to_array("Goodbye")))
+# print("is this a random word?", brain.feed_forward(format_string_to_array("kluguk")))
 
 data = [
-    {
-        "inputs": format_string_to_array(hello),
-        "targets": [1]
-    },
-    {
-        "inputs": format_string_to_array(bye),
-        "targets": [0]
-    }
+    {"class": "greeting", "sentence": "Hello comrade !"},
+    {"class": "greeting", "sentence": "How are you today ?"},
+    {"class": "greeting", "sentence": "Hello there"},
+    {"class": "greeting", "sentence": "Good morning fellows"},
+    {"class": "goodbye", "sentence": "Goodbye amigos"},
+    {"class": "goodbye", "sentence": "Let 's go now"},
+    {"class": "weather", "sentence": "What is the weather like today ?"},
+    {"class": "weather", "sentence": "It is quite sunny out there"},
+    {"class": "weather", "sentence": "It is raining today"},
+    {"class": "food", "sentence": "I want to eat potatoes"},
+    {"class": "food", "sentence": "I am so hungry"},
+    {"class": "food", "sentence": "What a delicious meal"},
+    {"class": "music", "sentence": "What song is this ?"},
+    {"class": "music", "sentence": "the song is beautiful"},
+    {"class": "music", "sentence": "Which artist sings this ?"}
 ]
 
-# np_brain = NN(8, 5, 1)
-# np_brain.learning_rate = 0.1
+c = Classification(data)
 
-brain = NeuralNetwork(8, 5, 1)
-brain.learning_rate = 0.1
+out = c.generate_output()
 
-for i in range(50000):
-    dataset = choice(data)
-    brain.train(dataset["inputs"], dataset["targets"])
+brain = NeuralNetwork(len(c.words), 11, len(c.classes))
+brain.learning_rate = 0.01
 
-print("is this a hello?", brain.forward(format_string_to_array("hello!")))
-print("is this a goodbye?", brain.forward(format_string_to_array("Goodbye")))
-print("is this a random word?", brain.forward(format_string_to_array("kluguk")))
+for i in range(20000):
+    outputs = choice(out[0])
+    inputs = choice(out[1])
+    brain.train(inputs, outputs)
