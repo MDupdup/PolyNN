@@ -64,7 +64,9 @@ out = c.generate_output()
 brain = NeuralNetwork(len(c.words), 11, len(c.classes))
 brain.learning_rate = 0.01
 
-for i in range(20000):
+for i in range(2000):
     outputs = choice(out[0])
     inputs = choice(out[1])
     brain.train(inputs, outputs)
+
+print(brain.feed_forward(c.to_binary("hello there !")))

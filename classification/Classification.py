@@ -50,3 +50,18 @@ class Classification(object):
 
         return [output, words_bag]
 
+
+    def to_binary(self, sentence):
+        bag = []
+
+        sentence = nltk.word_tokenize(sentence)
+
+        sentence = [stemmer.stem(word.lower()) for word in sentence]
+
+        for word in self.words:
+            if word in sentence:
+                print("found this",word)
+                bag.append(1)
+            else: bag.append(0)
+
+        return bag

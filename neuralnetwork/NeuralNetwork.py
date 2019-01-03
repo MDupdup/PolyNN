@@ -59,8 +59,6 @@ class NeuralNetwork(object):
 
         # Calculate output errors
         # e = targets - outputs
-        targets.show()
-        outputs.show()
         output_errors = Matrix.subtract(targets, outputs)
 
         # Calculate hidden layer errors
