@@ -61,12 +61,21 @@ c = Classification(data)
 
 out = c.generate_output()
 
-brain = NeuralNetwork(len(c.words), 11, len(c.classes))
-brain.learning_rate = 0.01
+print(out[0][0])
+print(out[1][0])
 
-for i in range(2000):
+brain = NeuralNetwork(len(c.words), int((len(c.words)+len(c.classes))/2), len(c.classes))
+brain.learning_rate = 0.2
+
+for i in range(20000):
     outputs = choice(out[0])
-    inputs = choice(out[1])
+    inputs = out[1][out[0].index(outputs)]
+    print(outputs)
+    print(inputs)
     brain.train(inputs, outputs)
 
-print(brain.feed_forward(c.to_binary("hello there !")))
+prediction = brain.feed_forward(c.to_wordbag("Hello, is it raining today ?"))
+
+print(prediction)
+
+print("This probably is a sentence of type:", c.classes[prediction.index(max(prediction))])
