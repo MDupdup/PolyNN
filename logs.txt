@@ -1,0 +1,28 @@
+[04-01-2019 (00:00:00)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.05. 2000 iterations performed, over 4.865000009536743 seconds.
+[04-01-2019 (00:00:00)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.05. 25000 iterations performed, over 62.72699999809265 seconds.
+[04-01-2019 (00:00:00)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.5. 25000 iterations performed, over 63.10599994659424 seconds.
+[04-01-2019 (15:38:26)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 25000 iterations performed over 62.79900002479553 seconds.
+[04-01-2019 (15:42:48)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 10000 iterations performed over 24.602999925613403 seconds.
+[04-01-2019 (15:51:56)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 2.5240001678466797 seconds.
+[04-01-2019 (15:52:28)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 5000 iterations performed over 12.52999997138977 seconds.
+[04-01-2019 (15:53:00)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.01. 5000 iterations performed over 13.528000116348267 seconds.
+[04-01-2019 (15:58:52)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.01. 5000 iterations performed over 12.79099988937378 seconds.
+      > results: greeting, asking "Hello , is it raining today ?", raw values: [0.2238115772121866, 0.11210560610517463, 0.14004322168108066, 0.15496491711375152, 0.16225136595609932, 0.21812497583781074]
+[04-01-2019 (15:59:49)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.1. 5000 iterations performed over 12.616535186767578 seconds.
+      > results: greeting, asking "Hello , is it raining today ?", raw values: [0.2767608464750841, 0.09124439927356776, 0.020049934445650106, 0.09725590196855126, 0.13686402226639816, 0.14425617809888852]
+[04-01-2019 (16:00:24)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.3. 5000 iterations performed over 12.46949315071106 seconds.
+      > results: greeting, asking "Hello , is it raining today ?", raw values: [0.22501330629287816, 0.09872146114464908, 0.16428754270302479, 0.007694142181756121, 0.18832042708178492, 0.056847819969662025]
+[04-01-2019 (16:01:18)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.3. 10000 iterations performed over 25.767152070999146 seconds.
+      > results: greeting, asking "Hello , is it raining today ?", raw values: [0.4097594234598723, 0.08432104377398623, 2.3204511214128533e-06, 0.12359140300780226, 0.11874194079191656, 0.1241334935717237]
+[04-01-2019 (16:04:08)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 2.3944790363311768 seconds.
+      > results: identity, asking "This meat is delicious", raw values: [0.20365493891943587, 0.06924200376371885, 0.11135981142206915, 0.13173571194744454, 0.14488569161989753, 0.21646295530744375]
+[04-01-2019 (16:05:00)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 5000 iterations performed over 12.6632661819458 seconds.
+      > results: greeting, asking "This meat is delicious", raw values: [0.2368040512780904, 0.10608003797073866, 0.12680078909351786, 0.008499821434146616, 0.15587900610257616, 0.0689806605413935]
+[04-01-2019 (16:16:00)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 5000 iterations performed over 12.411241054534912 seconds.
+      > results: identity, asking "This meat is delicious", raw values: [0.10813821543788851, 0.10509697367592731, 0.1424385016593093, 0.005676971058963205, 0.1637624182752221, 0.2266895770622044]
+[04-01-2019 (16:32:43)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 5000 iterations performed over 12.492000102996826 seconds.
+      > results: music, asking "This meat is delicious", raw values: [0.15734283948354452, 0.11750839638364932, 0.13998645965892637, 0.005715383485512701, 0.17129448969937894, 0.0781531018986371]
+[04-01-2019 (16:33:01)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.49500012397766113 seconds.
+      > results: food, asking "This meat is delicious", raw values: [0.1971934177483006, 0.10031132485659619, 0.14284567460961473, 0.20562116539132017, 0.1316028589582346, 0.20311197342669252]
+[04-01-2019 (16:33:33)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.4869999885559082 seconds.
+      > results: greeting, asking "This meat is delicious", raw values: [0.1986806228875908, 0.1210475902424054, 0.15583954598310404, 0.12974420907965364, 0.17074763849713653, 0.17526308954258288]
