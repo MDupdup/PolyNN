@@ -16,6 +16,7 @@ class NeuralNetwork(object):
 
         # weights
         self.weights_ih = Matrix(self.nHidden, self.nInputs)
+
         self.weights_ho = Matrix(self.nOutputs, self.nHidden)
         self.weights_ih.randomize()
         self.weights_ho.randomize()

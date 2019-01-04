@@ -26,9 +26,6 @@ class Classification(object):
 
         self.words = [stemmer.stem(word.lower()) for word in self.words if word not in self.ignore_words]
 
-        print("Avant listset :", self.words)
-        print("Avant listset :", self.classes)
-
         # self.words = list(set(self.words))
         # self.classes = list(set(self.classes))
 
@@ -61,11 +58,7 @@ class Classification(object):
             output_empty[self.classes.index(doc[1])] = 1
             output.append(output_empty)
 
-            print("MDIKJNQOFNFOIQUNHE")
-            print(output_empty)
-            print(output)
-            print(self.classes.index(doc[1]))
-            print("MDIKJ2555E")
+        print(words_bag)
 
         return [output, words_bag]
 

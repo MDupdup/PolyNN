@@ -1,6 +1,8 @@
 from neuralnetwork.NeuralNetwork import NeuralNetwork
 from classification.Classification import Classification
 from random import choice
+import os
+from datetime import datetime
 
 
 # def normalize_ascii_value(n):
@@ -54,28 +56,49 @@ data = [
     {"class": "food", "sentence": "What a delicious meal"},
     {"class": "music", "sentence": "What song is this ?"},
     {"class": "music", "sentence": "the song is beautiful"},
-    {"class": "music", "sentence": "Which artist sings this ?"}
+    {"class": "music", "sentence": "Which artist sings this ?"},
+    {"class": "identity", "sentence": "What is your name ?"},
+    {"class": "identity", "sentence": "How are your called ?"},
+    {"class": "identity", "sentence": "Your name, please"},
+    {"class": "identity", "sentence": "name"},
 ]
+
+print("")
 
 c = Classification(data)
 
 out = c.generate_output()
 
-print(out[0][0])
-print(out[1][0])
 
-brain = NeuralNetwork(len(c.words), int((len(c.words)+len(c.classes))/2), len(c.classes))
+start_timestamp = datetime.now().timestamp()
+
+brain = NeuralNetwork(len(c.words), 25, len(c.classes))
 brain.learning_rate = 0.2
 
-for i in range(20000):
+iterations = 200
+for i in range(iterations):
     outputs = choice(out[0])
     inputs = out[1][out[0].index(outputs)]
-    print(outputs)
     print(inputs)
     brain.train(inputs, outputs)
 
-prediction = brain.feed_forward(c.to_wordbag("Hello, is it raining today ?"))
+end_timestamp = datetime.now().timestamp()
+
+time_delta = end_timestamp - start_timestamp
+
+question = "This meat is delicious"
+
+prediction = brain.feed_forward(c.to_wordbag(question))
 
 print(prediction)
 
 print("This probably is a sentence of type:", c.classes[prediction.index(max(prediction))])
+
+if(c.classes[prediction.index(max(prediction))] == "identity"):
+    print("Hello, my name is Jarvis, I am your assistant.")
+
+# Logs
+log_file = open("logs.txt", "a")
+log_file.write("\n[" + str(datetime.now().strftime("%d-%m-%Y (%H:%M:%S)")) + "] Test done with " + str(brain.nInputs) + " inputs, " + str(brain.nHidden) + " hidden neurons, " + str(brain.nOutputs) + " outputs and a learning rate of " + str(brain.learning_rate) + ". " + str(iterations) + " iterations performed over " + str(time_delta) + " seconds.")
+log_file.write("\n      > results: " + c.classes[prediction.index(max(prediction))] + ", asking \"" + question + "\", raw values: " + str(prediction))
+log_file.close()
