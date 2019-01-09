@@ -26,3 +26,135 @@
       > results: food, asking "This meat is delicious", raw values: [0.1971934177483006, 0.10031132485659619, 0.14284567460961473, 0.20562116539132017, 0.1316028589582346, 0.20311197342669252]
 [04-01-2019 (16:33:33)] Test done with 48 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.4869999885559082 seconds.
       > results: greeting, asking "This meat is delicious", raw values: [0.1986806228875908, 0.1210475902424054, 0.15583954598310404, 0.12974420907965364, 0.17074763849713653, 0.17526308954258288]
+[09-01-2019 (11:44:59)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.4130818843841553 seconds.
+      > results: salut, asking "This meat is delicious", raw values: [0.23588903478176249, 0.15584878180068695, 0.18694620928026592, 0.1444404975926631, 0.1200908205643638, 0.09937673515012303]
+[09-01-2019 (11:45:55)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.3930790424346924 seconds.
+      > results: salut, asking "Salut", raw values: [0.31027532647319683, 0.21267182798112957, 0.14890120355957734, 0.10992080769827733, 0.13549539286177964, 0.09376150427205507]
+[09-01-2019 (11:46:31)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 500 iterations performed over 0.9711940288543701 seconds.
+      > results: troll, asking "On mange quoi ce midi ?", raw values: [0.18641436713414344, 0.11336647688727072, 0.16217748395145865, 0.14276600484007818, 0.1334080250190362, 0.18849826087947633]
+[09-01-2019 (11:48:31)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 500 iterations performed over 0.9801959991455078 seconds.
+      > results: salut, asking "On mange quoi ce midi ?", raw values: [0.4613677459568481, 0.09815319921492112, 0.10778260519063902, 0.1428244399134321, 0.13607545124343184, 0.1675748799212755]
+[09-01-2019 (11:49:01)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 500 iterations performed over 0.9741950035095215 seconds.
+      > results: salut, asking "Kebab ce midi ?", raw values: [0.3555388129338564, 0.1635414643820844, 0.14764717677047431, 0.19431425333971644, 0.09838194456955161, 0.14582514178904693]
+[09-01-2019 (11:49:10)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 500 iterations performed over 0.2580258846282959 seconds.
+      > results: salut, asking "Kebab ce midi ?", raw values: [0.373553308233628, 0.1566024282020694, 0.18416856339327387, 0.16923325041931234, 0.14845747696718362, 0.16120145912424738]
+[09-01-2019 (12:53:10)] Test done with 33 inputs, 20 hidden neurons, 6 outputs and a learning rate of 0.2. 500 iterations performed over 0.830082893371582 seconds.
+      > results: salut, asking "Kebab ce midi ?", raw values: [0.41301284833027685, 0.2221599138638862, 0.14351629895418358, 0.11965407134289015, 0.12544101749190034, 0.15125308672503107]
+[09-01-2019 (12:58:07)] Test done with 33 inputs, 20 hidden neurons, 6 outputs and a learning rate of 0.2. 2000 iterations performed over 3.3643360137939453 seconds.
+      > results: troll, asking "Kebab ce midi ?", raw values: [0.10175997640296533, 0.155328783042132, 0.1159742372611839, 0.17926637178202603, 0.14634871041330771, 0.19110115543448106]
+[09-01-2019 (12:58:36)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 2000 iterations performed over 1.05110502243042 seconds.
+      > results: commentva, asking "Kebab ce midi ?", raw values: [0.06645671221774582, 0.28524869370891986, 0.1808642053297137, 0.24723606989046, 0.23250180224217556, 0.14626200181617616]
+[09-01-2019 (12:58:57)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.533052921295166 seconds.
+      > results: commentva, asking "Kebab ce midi ?", raw values: [0.18104580319052133, 0.2205439436176324, 0.20937311121931101, 0.21765765810501675, 0.19651713553138064, 0.19409531358908658]
+[09-01-2019 (13:21:42)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 100 iterations performed over 0.054000139236450195 seconds.
+      > results: salut, asking "Kebab ce midi ?", raw values: [0.2498044896667322, 0.17057739761643137, 0.18774376549069108, 0.23611624999602016, 0.16662060580653468, 0.19264254677785114]
+[09-01-2019 (13:21:56)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 100 iterations performed over 0.05200004577636719 seconds.
+      > results: salut, asking "Salut ca va ?", raw values: [0.2894086742821137, 0.18764272735107285, 0.19634322131974344, 0.18868572038813072, 0.17422364448210334, 0.18644923251826162]
+[09-01-2019 (13:28:33)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 100 iterations performed over 0.04999995231628418 seconds.
+      > results: salut, asking "Tu fais quoi dans la vie ?", raw values: [0.3022261144559096, 0.15431518577812164, 0.14706342769233632, 0.2043383450323043, 0.2496912118469239, 0.1581127926665573]
+[09-01-2019 (13:30:09)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 100 iterations performed over 0.04999995231628418 seconds.
+      > results: salut, asking "Tu fais quoi ?", raw values: [0.29359583984580906, 0.17876835454985893, 0.1677106204355857, 0.16025142779452453, 0.1896040422597462, 0.1793949700934613]
+[09-01-2019 (13:30:18)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.5139999389648438 seconds.
+      > results: Kebab, asking "Tu fais quoi ?", raw values: [0.18728965350867563, 0.18711633596903782, 0.20262617717961534, 0.20300009632535249, 0.2418956644318648, 0.20226880543848869]
+[09-01-2019 (13:30:31)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.5120000839233398 seconds.
+      > results: heure, asking "Tu fais quoi ?", raw values: [0.12206763427823958, 0.18699299960138632, 0.18102463528561039, 0.24628445667380455, 0.17799813438831624, 0.16708813168196981]
+[09-01-2019 (13:30:45)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.5169999599456787 seconds.
+      > results: travail, asking "Tu fais quoi dans la vie ?", raw values: [0.1306967778581425, 0.15506882636909555, 0.2070363016058336, 0.18274390573438756, 0.157775419739633, 0.15524402505316395]
+[09-01-2019 (13:30:59)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.5220000743865967 seconds.
+      > results: salut, asking "Tu fais quoi ?", raw values: [0.1865461720164898, 0.16394786316067206, 0.17652233962748465, 0.16859817743929356, 0.1335961468455767, 0.15613502904293564]
+[09-01-2019 (13:31:14)] Test done with 33 inputs, 3 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.370999813079834 seconds.
+      > results: commentva, asking "Tu fais quoi ?", raw values: [0.10198162076546141, 0.2527201679412472, 0.17741000624584213, 0.2061330110367727, 0.18585113166405096, 0.19085854403730035]
+[09-01-2019 (13:35:30)] Test done with 33 inputs, 3 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.377000093460083 seconds.
+      > results: travail, asking "Tu fais quoi ?", raw values: [0.11260915594140986, 0.06731511693463764, 0.3822782907172773, 0.11716433433388843, 0.12117791255370729, 0.16483966829794866]
+[09-01-2019 (13:36:12)] Test done with 33 inputs, 3 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.36999988555908203 seconds.
+      > results: salut, asking "Salut ma couille !", raw values: [0.268175253113985, 0.24310550175384302, 0.1813140598172154, 0.2065405292743261, 0.1766920070635874, 0.17665424097650803]
+[09-01-2019 (13:37:11)] Test done with 33 inputs, 3 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.37000012397766113 seconds.
+      > results: Kebab, asking "Salut ma couille !", raw values: [0.1639570710466069, 0.20266885514060587, 0.15156732736414344, 0.20820023419681954, 0.24152515808323266, 0.183189342671317]
+[09-01-2019 (13:37:24)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.8859999179840088 seconds.
+      > results: salut, asking "Salut ma couille !", raw values: [0.28588176110111746, 0.15212709292674323, 0.10724642469529987, 0.16790887563357845, 0.13862775055175833, 0.16494023345107559]
+[09-01-2019 (13:37:42)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.2. 2000 iterations performed over 1.7410001754760742 seconds.
+      > results: travail, asking "Salut ma couille !", raw values: [0.15681711680426275, 0.2003430828969842, 0.24764390620280224, 0.0827362300544053, 0.14303956384677866, 0.11010396509092171]
+[09-01-2019 (13:37:53)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.8799998760223389 seconds.
+      > results: commentva, asking "Salut ma couille !", raw values: [0.2039206383374577, 0.2239528351504531, 0.18003320141457452, 0.16318900740229972, 0.14178476138191162, 0.13840906304439596]
+[09-01-2019 (13:38:08)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.2. 400 iterations performed over 0.3529999256134033 seconds.
+      > results: commentva, asking "Salut ma couille !", raw values: [0.1580902350168657, 0.2201388996039049, 0.1542998793816499, 0.15468803483091736, 0.18260018439598644, 0.17473936058846126]
+[09-01-2019 (13:38:15)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 400 iterations performed over 0.20399999618530273 seconds.
+      > results: Kebab, asking "Salut ma couille !", raw values: [0.15891669318603494, 0.1919237751169796, 0.17293816099591333, 0.18602381202635637, 0.2420739195039668, 0.15534644090049918]
+[09-01-2019 (13:38:28)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 40 iterations performed over 0.020999908447265625 seconds.
+      > results: heure, asking "Salut ma couille !", raw values: [0.27972512635616853, 0.2554683992744719, 0.27110487050490484, 0.34143721599347526, 0.26084917981560396, 0.28862296283255234]
+[09-01-2019 (13:38:42)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.5149998664855957 seconds.
+      > results: Kebab, asking "Salut ma couille !", raw values: [0.15926985645119818, 0.16469703673806843, 0.15363858370704442, 0.18831942075326397, 0.23299578377669475, 0.22155546127273967]
+[09-01-2019 (13:39:14)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.5299999713897705 seconds.
+      > results: heure, asking "Salut !", raw values: [0.1823129680241326, 0.17177551642460598, 0.17438609841721792, 0.2085059442746807, 0.16401554318072142, 0.18083435672598464]
+[09-01-2019 (13:40:05)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.5109999179840088 seconds.
+      > results: heure, asking "Quelle heure est il ?", raw values: [0.06773161730335216, 0.14229579960408242, 0.08736026358196892, 0.2366063229675844, 0.13504361184174649, 0.08759239892683564]
+[09-01-2019 (13:40:28)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.5099999904632568 seconds.
+      > results: commentva, asking "Quelle heure il est ?", raw values: [0.13847359356181418, 0.2002703990667501, 0.17764817317650528, 0.17829508530289553, 0.14479753095558118, 0.1585660390654249]
+[09-01-2019 (13:46:51)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.520103931427002 seconds.
+      > results: travail, asking "Quelle heure il est ?", raw values: [0.19590999942034196, 0.17837750031749539, 0.2530478215883172, 0.17069661155811724, 0.22788202445854058, 0.16810778147424993]
+[09-01-2019 (13:47:10)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.05. 1000 iterations performed over 0.520103931427002 seconds.
+      > results: commentva, asking "Quelle heure il est ?", raw values: [0.15730995667279868, 0.19258145837508892, 0.16339624096313787, 0.14551711587334784, 0.17601231053693128, 0.1924989608306617]
+[09-01-2019 (14:15:35)] Test done with 33 inputs, 5 hidden neurons, 6 outputs and a learning rate of 0.05. 1000 iterations performed over 0.5130510330200195 seconds.
+      > results: travail, asking "Quelle heure il est ?", raw values: [0.14368373689017383, 0.13375025894067408, 0.18969591488158283, 0.1589671448726335, 0.18312950662483213, 0.17123962854008892]
+[09-01-2019 (14:15:56)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.8910889625549316 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.16419521362705963, 0.21431105949426385, 0.17962397603342872, 0.2517119629756014, 0.23028623012164606, 0.17997234177217714]
+[09-01-2019 (14:16:06)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 0.871086835861206 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.16613950803084612, 0.15121901173027505, 0.10135503735898144, 0.15067761870146373, 0.17689817034876432, 0.1545567238893057]
+[09-01-2019 (14:21:16)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.8969101905822754 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.14776182846935834, 0.048640848202072984, 0.1274523431587295, 0.15401007595397326, 0.08636113805244403, 0.0530937597834385]
+[09-01-2019 (14:21:23)] Test done with 33 inputs, 10 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 0.9039099216461182 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.09388207918293373, 0.1505273460760561, 0.09812249430355817, 0.13995525156543015, 0.24808479904248415, 0.22519557532898413]
+[09-01-2019 (14:22:13)] Test done with 33 inputs, 30 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 2.3777620792388916 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.06658287762941405, 0.054770677530130554, 0.15803083802220372, 0.24284595278785778, 0.060014283788761044, 0.14212985143549878]
+[09-01-2019 (14:22:24)] Test done with 33 inputs, 30 hidden neurons, 6 outputs and a learning rate of 0.3. 1000 iterations performed over 2.4697530269622803 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.19130183150904498, 0.2043569580999091, 0.1700728265898682, 0.2526635414475093, 0.2125496416664279, 0.20781020415635504]
+[09-01-2019 (14:22:38)] Test done with 33 inputs, 30 hidden neurons, 6 outputs and a learning rate of 0.2. 1000 iterations performed over 2.4250001907348633 seconds.
+      > results: travail, asking "Quelle heure il est ?", raw values: [0.13245760031697817, 0.21830432959368, 0.22051451081888862, 0.1626269318780951, 0.12496465368752617, 0.16229652060640007]
+[09-01-2019 (14:23:11)] Test done with 33 inputs, 30 hidden neurons, 6 outputs and a learning rate of 0.2. 400 iterations performed over 0.9449999332427979 seconds.
+      > results: commentva, asking "Quelle heure il est ?", raw values: [0.14820300163998906, 0.1980305472874547, 0.14305103546005238, 0.16463053605151587, 0.1586422950834785, 0.17579138379097908]
+[09-01-2019 (14:23:16)] Test done with 33 inputs, 30 hidden neurons, 6 outputs and a learning rate of 0.2. 400 iterations performed over 0.943000078201294 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.13093560097254853, 0.15758244585488407, 0.15650509432776263, 0.1215395150460401, 0.28257828271519136, 0.11926627739190736]
+[09-01-2019 (14:23:40)] Test done with 33 inputs, 50 hidden neurons, 6 outputs and a learning rate of 0.2. 2000 iterations performed over 7.63100004196167 seconds.
+      > results: troll, asking "Quelle heure il est ?", raw values: [0.19851684714423157, 0.18555016215709766, 0.231889477278892, 0.215486756729914, 0.13382676782006184, 0.23574493674090208]
+[09-01-2019 (14:25:21)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 2000 iterations performed over 4.000999927520752 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.24591983891189736, 0.25851065504935283, 0.28347271108617017, 0.48344554406886664, 0.21716395727830626, 0.20439021309095556]
+[09-01-2019 (14:25:33)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 2000 iterations performed over 3.9660000801086426 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.1783601538650135, 0.19210948437299316, 0.20118690033132902, 0.19862104759558374, 0.22789682379335843, 0.17288159114147805]
+[09-01-2019 (14:28:43)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.39800000190734863 seconds.
+      > results: travail, asking "Quelle heure il est ?", raw values: [0.1596431669683021, 0.13870201962571607, 0.17538041956975453, 0.13454423771773136, 0.12080436696419274, 0.16947122749360435]
+[09-01-2019 (14:28:49)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 200 iterations performed over 0.4119999408721924 seconds.
+      > results: commentva, asking "Quelle heure il est ?", raw values: [0.19876387446833985, 0.20518353282645718, 0.1318093234600174, 0.11926728924715184, 0.12411436256435557, 0.14269546711007214]
+[09-01-2019 (14:28:56)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 500 iterations performed over 0.996999979019165 seconds.
+      > results: commentva, asking "Quelle heure il est ?", raw values: [0.1900160774388282, 0.1993544632984447, 0.14854775102328704, 0.11175565987152214, 0.15406238464013844, 0.14239935025637718]
+[09-01-2019 (14:29:13)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.2. 750 iterations performed over 1.4890000820159912 seconds.
+      > results: salut, asking "Quelle heure il est ?", raw values: [0.22521873782997684, 0.1478895426058606, 0.18389557989191516, 0.13394994854807338, 0.20338904764760876, 0.21570610531278825]
+[09-01-2019 (14:29:37)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 2.004000186920166 seconds.
+      > results: troll, asking "Quelle heure il est ?", raw values: [0.07992172794850307, 0.011236718883391708, 0.04562404350174802, 0.20777592688172752, 0.024343264080194122, 0.20884984717634328]
+[09-01-2019 (14:38:17)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.9019999504089355 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.21664166452511385, 0.1636700017942208, 0.12916477641422294, 0.22705972401751398, 0.17414113317125263, 0.1640401667459579]
+[09-01-2019 (14:41:49)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.940000057220459 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.1922260521118704, 0.05928639539677266, 0.28387521390826176, 0.4505423196222463, 0.35385183174846296, 0.21694282082802632]
+[09-01-2019 (14:54:40)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.943000078201294 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.2053364602743945, 0.298594371539694, 0.2156490089888323, 0.3135685923395066, 0.1105778829370337, 0.18408710215458687]
+[09-01-2019 (14:56:13)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.9500000476837158 seconds.
+      > results: travail, asking "Quelle heure il est ?", raw values: [0.1681674756573834, 0.16537809700817957, 0.33193086900442453, 0.24361827269603945, 0.2131465096872389, 0.09473157062084138]
+[09-01-2019 (15:09:12)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.9500000476837158 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.14673253700667224, 0.15331734916868944, 0.17893046228910195, 0.21325727110207768, 0.28298965887159355, 0.12068260946008491]
+[09-01-2019 (15:10:10)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.936000108718872 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.15771899848184004, 0.31462927031303756, 0.2507952998183343, 0.332075396768801, 0.23205007452591975, 0.1464820433510303]
+[09-01-2019 (15:13:45)] Test done with 34 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.941999912261963 seconds.
+      > results: troll, asking "Quelle heure il est ?", raw values: [0.16860264074720588, 0.19087128369523074, 0.14733397876734594, 0.0991959526205767, 0.15871377547543655, 0.279561763721347]
+[09-01-2019 (15:16:52)] Test done with 34 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.9660000801086426 seconds.
+      > results: travail, asking "Quelle heure il est ?", raw values: [0.2523807641673065, 0.1638080970041194, 0.3846485495713546, 0.20419787754691351, 0.15852374049213078, 0.1866667390673349]
+[09-01-2019 (15:17:30)] Test done with 34 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.9789998531341553 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.24431594482233088, 0.1570164736543962, 0.24105798879322118, 0.602444112583756, 0.24838012161574752, 0.20439863353111834]
+[09-01-2019 (15:17:53)] Test done with 34 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 2.0399999618530273 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.055934567676158765, 0.04884320535436564, 0.0009733908286473844, 0.8031840591698542, 0.004308846551699708, 0.048898352641522494]
+[09-01-2019 (15:27:25)] Test done with 34 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.961587905883789 seconds.
+      > results: heure, asking "Quelle heure il est ?", raw values: [0.24340446888965617, 0.18466548213544579, 0.4075740253373839, 0.5429153457800238, 0.09616471132548347, 0.2111477180610512]
+[09-01-2019 (15:37:39)] Test done with 33 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.9321930408477783 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.1507280263185458, 0.13447603273786188, 0.15216797264470755, 0.13305296274511746, 0.20718328125000768, 0.12170243633474963]
+[09-01-2019 (15:39:05)] Test done with 34 inputs, 25 hidden neurons, 6 outputs and a learning rate of 0.4. 1000 iterations performed over 1.965196132659912 seconds.
+      > results: troll, asking "Quelle heure il est ?", raw values: [0.17873352665187922, 0.04390713935897972, 0.08426210204097992, 0.12082699230829334, 0.11904886238678987, 0.3628421046828898]
+[09-01-2019 (16:12:39)] Test done with 34 inputs, 30 hidden neurons, 6 outputs and a learning rate of 0.25. 1000 iterations performed over 2.3802380561828613 seconds.
+      > results: Kebab, asking "Quelle heure il est ?", raw values: [0.13612045663741185, 0.1784419228588796, 0.18389646722989092, 0.15794413181751185, 0.20796997460451644, 0.20128387942922182]

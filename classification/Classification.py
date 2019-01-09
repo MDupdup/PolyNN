@@ -1,6 +1,6 @@
 import nltk
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
+from nltk.stem.snowball import FrenchStemmer
+stemmer = FrenchStemmer()
 
 
 class Classification(object):
@@ -13,16 +13,18 @@ class Classification(object):
 
         for pattern in training_data:
             # Add words in our "dictionary" if not already in it
-            words = nltk.word_tokenize(pattern['sentence'])
-            for word in words:
-                if word not in self.words:
-                    self.words.append(word)
 
-            self.documents.append((words, pattern['class']))
+            for sentence in pattern['patterns']:
+                words = nltk.word_tokenize(sentence)
+                for word in words:
+                    if word not in self.words:
+                        self.words.append(word)
+
+            self.documents.append((words, pattern['tag']))
 
             # Add classes in our class list if not already in it
-            if pattern['class'] not in self.classes:
-                self.classes.append(pattern['class'])
+            if pattern['tag'] not in self.classes:
+                self.classes.append(pattern['tag'])
 
         self.words = [stemmer.stem(word.lower()) for word in self.words if word not in self.ignore_words]
 
