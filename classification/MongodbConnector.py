@@ -27,6 +27,4 @@ def insert_in_db(tag, text):
                 "$push": {"patterns": text}
             }
         )
-
         print("results affected:", result.matched_count)
-
